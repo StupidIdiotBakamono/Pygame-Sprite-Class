@@ -48,6 +48,7 @@ class Player(pygame.sprite.Sprite):
         self.pos = pos
         self.size = size
 
+
         self.image = pygame.Surface(size).convert()
         self.image.fill((210, 210, 210))
 
